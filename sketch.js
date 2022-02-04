@@ -110,7 +110,9 @@ function draw() {
   
   }
   else if(gameState==="end"){
-
+    textSize(38);
+    fill("red");
+text("Game Over!! Click on Try Gain to play again", 400,120);
   }
   
 if(mousePressedOver(start)){
